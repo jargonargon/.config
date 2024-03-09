@@ -67,8 +67,8 @@ symbol = " "
 
 [hostname]
 ssh_only = true
-ssh_symbol = ''
-format = '[$ssh_symbol]($style)[ on ]($style)[$hostname](fg:red)'
+ssh_symbol = '󰴽'
+format = '[$ssh_symbol]($style)($style)[ $hostname](fg:red)'
 
 
 [directory]
