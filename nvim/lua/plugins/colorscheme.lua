@@ -1,8 +1,8 @@
 return {
   {
-    "cocopon/iceberg.vim",
-    config = function()
-      vim.cmd.colorscheme("iceberg")
-    end,
+    "folk/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
   },
 }

@@ -72,7 +72,7 @@ format = '[$ssh_symbol]($style)($style)[ $hostname](fg:red)'
 
 
 [directory]
-style = "fg:#303030"
+style = "fg:#97659c"
 read_only = ''
 read_only_style="fg:#AF0000"
 format = '[ $path ]($style)[$read_only]($read_only_style)'
@@ -162,4 +162,3 @@ format = "[|](fg:base bg:none)[$symbol($version)](fg:$style bg:base)[|](fg:base 
 style = "bold green"
 symbol = " "
 format = "[|](fg:base bg:none)[$symbol($version)](fg:$style bg:base)[|](fg:base bg:none) "
-
